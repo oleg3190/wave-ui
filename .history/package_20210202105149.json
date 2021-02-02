@@ -7,7 +7,8 @@
   "unpkg": "dist/wave-ui.umd.min.js",
   "jsdelivr": "dist/wave-ui.umd.min.js",
   "files": [
-    "dist"
+    "dist",
+    "src/wave-ui"
   ],
   "keywords": [
     "wave ui",
@@ -21,9 +22,10 @@
   "license": "MIT",
   "repository": "",
   "scripts": {
+    "p": "build-bundle",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "b": "vue-cli-service build --target lib --name wave-ui ./src/wave-ui/index.js --dest ./dist && npm remove ./dist/demo.html",
+    "build-bundle": "vue-cli-service build --target lib --name wave-ui ./src/wave-ui/index.js --dest ./dist && npm remove ./dist/demo.html",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {},

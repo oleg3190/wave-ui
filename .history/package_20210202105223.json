@@ -7,7 +7,8 @@
   "unpkg": "dist/wave-ui.umd.min.js",
   "jsdelivr": "dist/wave-ui.umd.min.js",
   "files": [
-    "dist"
+    "dist",
+    "src/wave-ui"
   ],
   "keywords": [
     "wave ui",
