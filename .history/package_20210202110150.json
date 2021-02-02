@@ -9,7 +9,8 @@
   "files": [
     "dist"
   ],
-  "keywords": [],
+  "keywords": [
+  ],
   "license": "MIT",
   "repository": "",
   "scripts": {
